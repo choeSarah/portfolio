@@ -1,0 +1,30 @@
+.intro {
+    padding: 150px 100px 20px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+
+.intro h2 {
+    font-size:30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.intro p{
+    font-size: 18px;
+}
+
+.ui_content {
+    padding: 80px;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ui_content img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/styles.css">
+    <link rel="stylesheet" href="../../style/theraKit.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">    
+    <script src="../../slideshow.js"></script>
+    <script src="https://kit.fontawesome.com/2f46ee0704.js" crossorigin="anonymous"></script>
+    <title>Sarah Choe</title>
+    <link rel="icon" href="../../icons/s.png" type="image/icon type">
+</head>
+<body>
+    <header>
+        <p class="logo">Sarah Choe</p>
+        <ul class="navLinks">
+            <li class="navLink"><a href="../index.html">Home</a></li>
+            <li class="navLink"><a href="../about.html">About</a></li>
+            <li class="navLink"><a href="../resume.html" target="_blank">Resume</a></li>
+
+        </ul>
+    </header>
+
+    <section class="page_body">
+        <section class="sidebar" id="sidebar">
+            <ul class="sideLinks">
+                <li class="sideLink"><a href="#intro"><span>•</span> Introduction</a></li>
+                <li class="sideLink"><a href="#problem-definition"><span>•</span> Problem Definition</a></li>
+                <li class="sideLink"><a href="#user_persona"><span>•</span> User Persona</a></li>
+                <li class="sideLink"><a href="#research"><span>•</span> Research</a></li>
+                <li class="sideLink"><a href="#market"><span>•</span> Market Analysis</a></li>
+                <li class="sideLink"><a href="#brainstorm"><span>•</span> Brainstorm</a></li>
+                <li class="sideLink"><a href="#solution"><span>•</span> Design Solution</a></li>
+                <li class="sideLink"><a href="#userflow"><span>•</span> Userflow</a></li>
+                <li class="sideLink"><a href="#wireframe"><span>•</span> Wireframe</a></li>
+                <li class="sideLink"><a href="#style_guide"><span>•</span> Style Guide</a></li>
+                <li class="sideLink"><a href="#prototype"><span>•</span> Prototype</a></li>
+
+            </ul>
+        </section>
+    
+        <section class="content">
+            <section class="intro" id="intro">
+                <h1>QuestMind</h1>
+                <div class="intro-grid">
+                    <div class="intro-left">
+                        <h3>Introduction</h3>
+                        <p>
+                            QuestMind is a mental health app that complements traditional therapy with personalized 
+                            features. The goal is to empower users to manage their mental health effectively between
+                            therapy sessions. <br>
+
+                            <br>This page consists of the workflow of the project, from problem definition to UX research
+                            to prototyping.
+                        </p>
+                    </div>
+                    <div class="intro-right">
+                        <div class="intro-right-item">
+                            <h3>Duration</h3>
+                            <p id="dur_num">10</p>
+                            <p>Weeks</p>
+                        </div>
+        
+                        <div class="intro-right-item">
+                            <h3>Tools</h3>
+                            <img src="../../icons/figma.png">
+                            <img src="../../icons/Adobe_XD_CC_icon.svg.png">
+                            <img src="../../icons/Diagrams.net_Logo.svg.png">
+                            <img src="../../icons/notion.png">
+        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="problem-definition" id="problem-definition">
+                <h2>Problem Definition</h2>
+                <div class="problem-container">
+                    <div class="left">
+                        <h3>Painpoint Overview</h3>
+                        <ol>
+                            <li>Although many therapists assign users "homework" or self-help assignments to complete between sessions, 
+                                many users struggle to maintain motivation.</li>
+                            <li>This lack of motivation can hinder one's progress in their mental health and prevent them from fully benefiting from therapy.</li>
+                        </ol>
+                    </div>
+                    <div class="right">
+                        <h3>Design Challenge</h3>
+                        <p>
+                            How might we design a mental wellness app that complements therapy with structured, engaging, 
+                            and motivational support to fill gaps in mental health services?
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="user_persona" id="user_persona">
+                <h2>User Persona</h2>
+            
+                <div id="client_user" class="user_card">
+                    <div class="left">
+                        <img src="../../photos/QuestMind/college_fem.jpg">
+                    </div>
+                    <div class="right">
+                        <h3>Emily Lee</h3>
+                        <h4>Individual</h4>
+                        <h5>About</h5>
+                            <p>
+                                Age: 19 years old <br>
+                                Location: SLC, Utah <br>
+                                Hobbies: Playing video games and watching movies
+                            </p>
+                        <h5>Situation</h5>
+                            <p>Emily is a college student receiving therapy through her campus student services.</p>
+                        <h5>Challenge</h5>
+                            <p>Despite efforts to assign homework between sessions, Emily struggles with motivation and tracking her progress.</p>
+                        <h5>Need</h5>
+                            <p>Emily needs a way to stay motivated and organized to complete her therapy homework effectively.</p>
+                    </div>
+                </div>
+
+                <div id="therapist_user" class="user_card">
+                    <div class="left">
+                        <img src="../../photos/QuestMind/therapist_fem.jpg">
+                    </div>
+                    <div class="right">
+                        <h3>Rebecca Jorgensen</h3>
+                        <h4>Therapist</h4>
+                        <h5>About</h5>
+                            <p>
+                                Age: 35 years old <br>
+                                Location: SLC, Utah <br>
+                                Hobbies: Camping and hiking
+                            </p>
+                        <h5>Situation</h5>
+                            <p>Rebecca works primarily with younger clients and finds cognitive behavioral therapy effective. However, her clients often struggle with homework assignments between sessions.</p>
+                        <h5>Challenge</h5>
+                            <p>Clients face difficulties understanding assignments, recognizing their benefits, and overcoming the mental barriers associated with task completion.</p>
+                        <h5>Need</h5>
+                            <p>Rebecca needs a way to keep her clients motivated and engaged in completing their therapy homework.</p>
+                    </div>
+                </div>
+
+                <div class="button_class">
+                    <button onclick="showPersona(1)">Next Persona</button>
+                </div>
+            </section>
+        
+            <section class="research" id="research">
+                <h2>Research</h2>
+                <p>We started research on the types of self-help assignments therapists give and the various
+                    barriers and motivations clients have regarding them. <br>
+
+                    <img src="../../photos/QuestMind/theraKit_research.png">
+                </p>
+        
+            </section>
+        
+            <section class="market" id="market">
+                <h2>Market Analysis</h2>
+                <p>Once we refined the scope of the project, we then conducted market and visual research on various mental health apps. </p>
+                <img src="../../photos/QuestMind/Untitled design (3).png">
+            </section>
+
+            <section class="brainstorm" id="brainstorm">
+                <h2>Brainstorm</h2>
+                <img src="../../photos/QuestMind/brainstorm.png">
+
+            </section>
+
+            <section class="solution" id="solution">
+                <h2>Design Solution</h2>
+                
+                <ol>
+                    <li>Visible Progress</li>
+                    <p>
+                        Tracking progress in a mental health app boosts motivation and self-awareness by showing tangible improvements and helping users identify emotional patterns and effective coping strategies.
+
+                    </p>
+                    <li>Small and Big Tasks</li>
+                    <p>
+                        Small tasks provide a sense of accomplishment and progress, which can boost confidence and motivation, while bigger tasks outline long-term goals, helping users maintain a balanced and achievable path to mental well-being.
+                    </p>
+                    <li>Task Explanations</li>
+                    <p>
+                        Clients also often struggle to finish tasks because they do not see the effective use of completing it. By adding an explanation, it can help users stay motivated.
+                    </p>
+                </ol>
+            </section>
+            
+            <section class="userflow" id="userflow">
+                <h2>User Flow</h2>
+                <img onclick="zoom(1)" id="user_flow_img" src="../../photos/QuestMind/theraKit_userFlow.drawio (3).png">
+            </section>
+        
+            <section class="wireframe" id="wireframe">
+                <h2>Wireframing</h2>
+                <h5>Account Setup</h5>
+                <img src="../../photos/QuestMind/Artboard 3.png">
+                <h5>Page Navigation (Individual)</h5>
+                <img src="../../photos/QuestMind/theraKit - clientFlow.png">
+                <h5>Page Navigation (Therapist)</h5>
+                <img src="../../photos/QuestMind/Artboard 7.png">
+
+                
+            </section>
+        
+            <section class="style_guide" id="style_guide">
+                <h2>Style Guide</h2>
+                <div class="style-grid">
+                    <div class="style-colors">
+                        <div class="style-color-item" id="color1_item">
+                            <p id="color1">#3A2E39</p>
+                        </div>
+        
+                        <div class="style-color-item" id="color2_item">
+                            <p id="color2">#FAEAE4</p>
+                        </div>
+        
+                        <div class="style-color-item" id="color3_item">
+                            <p id="color3">#F2CC8F</p>
+                        </div>
+        
+                        <div class="style-color-item" id="color4_item">
+                            <p id="color4">#71A2B6</p>
+                        </div>
+        
+                        <div class="style-color-item" id="color5_item">
+                            <p id="color5">#FE938C</p>
+                        </div>
+
+                        <div class="style-color-item" id="color6_item">
+                            <p id="color5">#89B6A5</p>
+                        </div>
+    
+                    </div>
+                    <div class="style-typo">
+                        <div class="style-typo-item">
+                            <p id="typo1">Aa       Font Name</p>
+                            <p id="typo2">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                            <p id="typo3">a b c e d f g h i j k l m n o p q r s t u v w x y z</p>
+                            <p id="typo4">0 1 2 3 4 5 6 7 8 9</p>
+
+                        </div>
+        
+                        <div class="style-typo-item">
+                            <p id="typo1">Aa       Font Name</p>
+                            <p id="typo2">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                            <p id="typo3">a b c e d f g h i j k l m n o p q r s t u v w x y z</p>
+                            <p id="typo4">0 1 2 3 4 5 6 7 8 9</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="prototype" id="prototype">
+                <h2>Prototype</h2>
+                <div class="video_content">
+                    <div class="walkthrough">
+                        <h3>App Walkthrough</h3>
+                    </div>
+                    <div class="promo">
+                        <h3>App Promotional Video</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <p>Let's get in contact!</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/sarah-choe-4974a723a/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/choeSarah" target="_blank">Github</a></li>
+            <button onclick="copyEmail()" class="email-button">
+                <div id="copyNotification" class="copy-notification">
+                    <span id="copyMessage" class="copy-message">Copied to clipboard!</span>
+                </div>
+                Email
+            </button>
+
+        </ul>
+    </footer>
+</body>
+</html>

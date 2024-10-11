@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/styles.css">
+    <link rel="stylesheet" href="../../style/videos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="../script.js"></script>
+    <title>Sarah Choe</title>
+    <link rel="icon" href="../../icons/s.png" type="image/icon type">
+
+</head>
+<body>
+    <header>
+        <p class="logo">Sarah Choe</p>
+        <ul class="navLinks">
+            <li class="navLink"><a href="../index.html#home">Home</a></li>
+            <li class="navLink"><a href="../about.html">About</a></li>
+            <li class="navLink"><a href="../resume.html" target="_blank">Resume</a></li>
+
+        </ul>
+    </header>
+
+    <section class="intro">
+        <h1>Microsoft Spreadsheet Clone</h1>
+        <div class="intro-grid">
+            <div class="intro-left">
+                <h3>Introduction</h3>
+                <p>
+                    This project mimics the functionalities of Microsoft's Excel application. Using a model-view-controller architecture, I was able to 
+                    create a program that accepts variables (cell names), performs basic infix operations, and has file I/O functionality. Furthermore, 
+                    it is able to split values across cells by commas, semi-colons, or spaces. <br>
+
+                    <br>Throughout this process, I created tests for quality assurance and coded the operations for variable validity and formula
+                    evaluations.
+                </p>
+            </div>
+
+            <div class="intro-right">
+                <div class="item_container">
+                    <div class="intro-right-item" id="one">
+                        <h3>Duration</h3>
+                        <p id="duration_num">1</p>
+                        <p>Month</p>
+                    </div>
+    
+                    <div class="intro-right-item" id="two">
+                        <h3>Team</h3>
+                        <p id="team"> Sarah Choe <br>
+                            Anand Palukuri    
+                        </p>
+                    </div>
+    
+                    <div class="intro-right-item" id="three">
+                        <h3>Tools</h3>
+                        <img src="../../icons/c-sharp.png">
+                        <img src="../../icons/visual-studio.png">
+                        <img src="../../icons/maui.png">
+                    </div>
+                </div>
+
+                <div class="intro-right-item" id="four">
+                    <a class="github_btn" href="https://github.com/choeSarah/hanGo" target="_blank">View Project on Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video_content">
+        <video controls="">
+            <source src="../../videos/A6.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        <p>Let's get in contact!</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/sarah-choe-4974a723a/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/choeSarah" target="_blank">Github</a></li>
+            <button onclick="copyEmail()" class="email-button">
+                <div id="copyNotification" class="copy-notification">
+                    <span id="copyMessage" class="copy-message">Copied to clipboard!</span>
+                </div>
+                Email
+            </button>
+
+        </ul>
+    </footer>
+
+</body>
+</html>

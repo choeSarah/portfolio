@@ -1,0 +1,99 @@
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }
+}
+
+.home {
+    height: 100%;
+    text-align: center;
+
+    margin-top: 100px;
+    padding: 100px 50px 50px;
+}
+
+.home .title {
+    font-size:90px;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.home .subtitle {
+    margin: 20px 0px 180px;
+    font-size:60px;
+    font-weight: 350;
+    text-align: center;
+}
+
+.home a {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    border-radius: 50px;
+    font-size:20px;
+
+    display: inline-block;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+
+.programmer {
+    font-family: "Fira Code", monospace;
+   color:#D64933;
+
+}
+
+.designer {
+    color: transparent;
+    -webkit-text-stroke: 2px #D64933;
+    font-family: "Rowdies", sans-serif;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .home .title {
+        font-size:80px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+
+    .home .subtitle {
+        margin: 50px 0px;
+        font-size:40px;
+        font-weight: 400;
+        margin-top: 30px;
+        margin-bottom: 280px;
+    }
+
+    .designer {
+        -webkit-text-stroke: 0px #D64933;
+        color:#D64933;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .home .title {
+        font-size:50px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+
+    .home .subtitle {
+        margin: 20px 0px;
+        font-size:35px;
+        font-weight: 400;
+        margin-top: 30px;
+        margin-bottom: 280px;
+    }
+
+    .home a {
+        font-size: 12px;
+    }
+}

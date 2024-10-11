@@ -1,0 +1,387 @@
+/* This is for the side bar */
+.sidebar {
+    padding: 10px 15px;
+    margin: 0px 15px;
+    position:fixed;
+    transition: ease-in-out 0.4s;
+    z-index:1;
+    top: 40%; 
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sidebar.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.side ul li {
+    padding: 10px 0px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+}
+
+.sidebar ul li a:hover {
+    color:#D64933;
+}
+
+.sidebar ul li a.active {
+    color:#D64933;
+}
+
+/* This is for the intro */
+
+.intro-banner {
+    margin-top: 70px;
+    background-color: grey;
+    width: 100%;
+    height: 200px
+}
+
+.intro h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+    padding: 50px 50px 30px 0px;
+
+}
+
+.intro h3 {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.intro-grid {
+    padding: 50px 50px 30px 0px;
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1.2fr .8fr;
+}
+
+.intro-right {
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 0.5fr 1.5fr;
+    text-align: center;
+}
+
+.intro-right #dur_num {
+    font-size: 30px;
+}
+
+.intro-right-item {
+    padding-bottom: 20px;
+}
+
+.intro-right-item img{
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    margin: 0px 5px;
+
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+.intro, .problem-definition, .user_persona, .research, .market, .brainstorm, .solution, .userflow, .wireframe, .style_guide, .prototype {
+    padding: 30px 180px;
+}
+.problem-definition h2, .user_persona h2, .research h2, .market h2, .brainstorm h2, .solution h2, .userflow h2, .wireframe h2, .style_guide h2, .prototype h2{
+    margin-top: 80px;
+}
+
+/* This is for the problem-definition */
+
+.problem-definition h3 {
+    padding: 30px 0px 15px;
+}
+
+.problem-definition p {
+    padding: 10px 0px;
+}
+
+.problem-container {
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.problem-container ol {
+    padding: 0px 20px;
+}
+
+/* This is for the user persona */
+.user_card {
+    height: 430px;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: left;
+    display:grid;
+    column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.user_card img{
+    width: 80%;
+    height: auto;
+}
+
+.user_card h3 {
+    font-size: 20px;
+}
+
+.user_card h4 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.user_card h5 {
+    margin-top: 15px;
+}
+
+.button_class {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button_class button {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    transition: ease-in-out 0.3s;
+
+}
+
+.button_class button:hover {
+   background-color: #D64933;
+   transition: ease-in-out 0.3s;
+}
+
+/* This is for research */
+
+.research p{
+    padding: 15px 0px;
+}
+
+.research ol {
+    padding-left: 15px;
+}
+
+.research ol li {
+    padding: 5px 0px;
+}
+
+.research img {
+    margin-top: 30px;
+    padding: 30px 0px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+/* This is for market research */
+
+.market img {
+    margin-top: 30px;
+    padding: 30px 0px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.market p {
+    padding: 10px 0px;
+}
+
+/* This is for userflow */
+
+.brainstorm img {
+    margin-top: 30px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+/* This is for solution */
+
+.solution ol {
+    padding: 20px;
+}
+
+.solution ol li {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.solution p {
+    padding-bottom: 40px;
+}
+
+.userflow img{
+    padding: 30px;
+    margin-top: 30px;
+    width: 95%;
+    height: auto;
+    background-color: white;
+}
+
+/* .userflow img:hover {
+    transform: scale(1.3); 
+    z-index: 10; 
+    position: relative; 
+    transition: ease-in-out 0.3s;
+} */
+
+.zoom {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+.zoom:hover{
+    background-color: #D64933;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+.wireframe h5 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+.wireframe img {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
+.style-grid {
+    padding-top: 30px;
+    display: grid;
+    column-gap: 90px;
+    grid-template-columns: 1.2fr .8fr;
+}
+
+.style-colors {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: repeat(3, 1fr); /* Use repeat() for shorter syntax */
+}
+
+.style-color-item {
+    display: flex; /* Add Flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    padding: 20px 0px;
+    text-align: center; /* Center text horizontally */
+    border-radius: 20px;
+}
+
+#color1_item {
+    background-color:#3A2E39;
+    color:white;
+}
+
+#color2_item {
+    background-color: #FAEAE4;
+    color:#3A2E39;
+}
+
+#color3_item {
+    background-color: #F2CC8F;
+    color:white;
+}
+
+#color4_item {
+    background-color: #71A2B6;
+    color:white;
+}
+
+#color5_item {
+    background-color: #FE938C;
+    color:white;
+}
+
+#color6_item {
+    background-color: #89B6A5;
+    color:white;
+}
+
+.style-grid #typo1 {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 0px 20px;
+}
+
+.style-grid #typo2, #typo3, #typo4 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+.video_content {
+    padding-top: 30px;
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 1024px) {
+    .sidebar {
+        display:none;
+    }
+
+    .intro, .problem-definition, .user_persona, .research, .market, .userflow, .wireframe, .style_guide, .prototype {
+        padding: 15px 90px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .sidebar {
+        display:none;
+    }
+    
+    .intro, .problem-definition, .user_persona, .research, .market, .userflow, .wireframe, .style_guide, .prototype {
+        padding: 10px 40px;
+    }
+
+    .intro-grid {
+        padding: 0px;
+        display:block;
+    }
+
+    .style-grid {
+        padding-top: 30px;
+        display: block;
+    }
+}

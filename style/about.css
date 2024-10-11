@@ -1,0 +1,130 @@
+.about {
+    height: 100%;
+    width:100%;
+    padding: 80px 0px 0px;
+}
+
+.title {
+    font-size:3em;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 50px 10px 0px;
+}
+
+.about_container {
+    padding: 0px 120px;
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+
+    height:500px;
+}
+
+.about_text p {
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.about_container img{
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+
+.about_other {
+    padding: 60px 120px 0px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_other h4 {
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+.work_item {
+    margin-bottom: 20px;
+}
+
+.work_item .role {
+    font-weight: 600;
+}
+
+.work_item .year {
+    font-style: italic;
+}
+
+.project_item {
+    padding: 20px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project_item:hover a, .project_item:hover p{
+    color:#D64933;
+    transition: ease-in-out 0.3s;
+}
+
+.project_item a{
+    text-decoration: none;
+    font-weight: 600;
+    color:black;
+}
+
+@media only screen and (max-width: 1024px) {
+    .project_container {
+        padding: 40px 80px;
+        column-gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .title {
+        font-size:3em;
+        text-align: center;
+        padding: 50px 50px 0px;
+    }
+
+    .about_container {
+        padding: 0px 50px;
+        display:block;
+
+        height: auto;
+    }
+
+    .about_container img {
+        height: 300px;
+
+    }
+
+    .about_text p{
+        text-align: center;
+        font-size: 0.8em;
+
+
+    }
+
+    .project_container {
+        padding: 40px 40px;
+        display: block;
+    }
+
+    .project_container div {
+        margin-bottom: 40px;
+    
+    }
+}
+
+
+
+
+

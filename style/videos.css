@@ -1,0 +1,172 @@
+.intro {
+    padding: 150px 100px 20px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    padding-bottom: 30px;
+
+}
+
+.intro h2 {
+    font-size:30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.intro h3 {
+    font-size:20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.intro p{
+    font-size: 18px;
+}
+
+.intro-left {
+    margin-bottom: 80px;
+}
+
+.intro-grid {
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item_container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.intro-right-item {
+    text-align: center;
+    border-radius: 50px;
+    height: 200px;
+}
+
+#four {
+    text-align: center;
+    border-radius: 50px;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.intro-right-item img {
+    height: 50px;
+    width: auto;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+.intro-right-item a {
+    text-decoration: none;
+}
+
+.github_btn {
+    padding: 20px 100px;
+
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    color:black;
+    border: solid;
+
+    transition: 0.4s ease-in-out;
+
+}
+
+.github_btn:hover {
+    color: white;
+    background-color:#D64933;
+    transition: 0.4s ease-in-out;
+}
+
+.intro-right-item #duration_num {
+    font-size: 30px;
+}
+
+.video_content {
+    padding: 0px 20px 60px;
+    text-align: center;
+}
+
+.video_content video {
+    width:70%;
+    height:auto;
+}
+
+.nextProject {
+    padding: 0px 120px 30px;
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nextProject a{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color:white;
+}
+
+.nextProject .left {
+    padding: 20px 40px;
+    text-align: left;
+    background:black;
+    color:white;
+    border-radius: 50px;
+}
+
+.nextProject .left:hover {
+    background:white;
+    color:black;
+    border:solid;
+    transition: 0.4s ease-in-out;
+}
+
+.nextProject .left:hover a {
+    color:black;
+    transition: 0.4s ease-in-out;
+}
+
+.nextProject .right {
+    padding: 20px 40px;
+    text-align: right;
+    background:black;
+    color:white;
+    border-radius: 50px;
+
+}
+
+.nextProject .right:hover {
+    background:white;
+    color:black;
+    border:solid;
+    transition: 0.4s ease-in-out;
+}
+
+.nextProject .right:hover a{
+    color:black;
+    transition: 0.4s ease-in-out;
+}
+
+@media only screen and (max-width: 450px) {
+    .intro {
+        padding: 150px 50px 20px;
+    }
+
+    .intro-grid {
+        display:block;
+        text-align: center;
+    }
+
+    .item_container {
+        display:block;
+    }
+
+    .github_btn {
+        padding: 20px 30px;
+
+    }
+}
