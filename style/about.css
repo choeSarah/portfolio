@@ -80,47 +80,26 @@
     color:black;
 }
 
-@media only screen and (max-width: 1024px) {
-    .project_container {
-        padding: 40px 80px;
-        column-gap: 40px;
-    }
-}
-
 @media only screen and (max-width: 450px) {
     .title {
-        font-size:3em;
-        text-align: center;
-        padding: 50px 50px 0px;
+        font-size:2em;
+        padding: 30px 10px 0px;
     }
 
     .about_container {
-        padding: 0px 50px;
+        height: 100%;
         display:block;
-
-        height: auto;
+        padding: 0px 60px;
     }
 
-    .about_container img {
-        height: 300px;
-
-    }
-
-    .about_text p{
-        text-align: center;
-        font-size: 0.8em;
-
+    .about_other {
+        display:block;
+        padding: 30px 60px 0px;
 
     }
 
-    .project_container {
-        padding: 40px 40px;
-        display: block;
-    }
-
-    .project_container div {
-        margin-bottom: 40px;
-    
+    .about_other h4 {
+        font-size: 1.5em;
     }
 }
 
