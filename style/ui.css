@@ -29,3 +29,27 @@
     width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 450px) {
+    .intro {
+        padding: 150px 15px 20px;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+    }
+
+    .intro h2 {
+        font-size:18px;
+    }
+
+    .intro p{
+        font-size: 14px;
+    }
+
+    .ui_content {
+        padding: 0px;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}

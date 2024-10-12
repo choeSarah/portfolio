@@ -3,6 +3,7 @@
     padding: 0px 120px 60px;
     gap: 40px; /* Gap between items */
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    overflow-x: hidden;
 }
 
 .code_skills, .design-skills {
@@ -21,7 +22,7 @@
 
 .img_item {
     width: 100px;
-    height: 180px;
+    height: auto;
     padding: 15px;
     display: inline-block;
     overflow-x: hidden; 
@@ -57,21 +58,18 @@
 
     .img_item {
         width: 80px;
-        height: 120px;
         padding: 10px;
     }
 }
 @media only screen and (max-width: 450px) {
     .skills_sections {
-        display: grid;
-        padding: 0px 0px 60px;
-        gap: 40px; /* Gap between items */
-        grid-template-columns: 1fr; /* 2 columns */
+        display: block;
+        padding: 0px 10px 60px;
     }
 
     .img_item {
-        width: 60px;
-        height: 100px;
+        width: 40px;
+        height: 80px;
         padding: 15px;
     }
 
