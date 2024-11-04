@@ -76,6 +76,11 @@
     margin: 20px auto;
 }
 
+.git-btn a{
+    text-decoration: none;
+    color:black;
+}
+
 .git-btn:hover {
     background-color: #9381ff;
     transition: ease-in-out 0.2s;
