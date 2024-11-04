@@ -1,0 +1,129 @@
+#code-content {
+    text-align: left;
+    display:grid;
+    column-gap: 20px;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.project-title {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    padding: 140px 6% 0px;
+    font-size: 48px;
+}
+
+#code-content section {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#code-content p {
+    margin-bottom: 30px;
+}
+
+#code-content .intro {
+    padding-right: 60px;
+}
+
+#code-content .video {
+    padding-left: 0px;
+}
+
+#code-content .video video {
+    width: 100%;
+    height: auto;
+}
+
+.details {
+    display:grid;
+    column-gap: 20px;
+    grid-template-columns: .8fr .8fr 1fr;
+}
+
+.details h5 {
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 14px;
+}
+
+.detail-item {
+    text-align: left;
+}
+
+.detail-icons {
+    display:flex;
+    justify-content: space-between;
+}
+
+.detail-icons img {
+    width: 40px;
+    height:auto;
+    /* text-align: center; */
+}
+
+.git-btn {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #9381ff;
+    background-color: #b8b8ff;
+    transition: ease-in-out 0.2s;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.git-btn:hover {
+    background-color: #9381ff;
+    transition: ease-in-out 0.2s;
+}
+
+.next-projects {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #5d4db7;
+}
+
+.others {
+    margin-top: 30px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.others .title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.others .desc {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.others .btn-container {
+    display: block;
+}
+
+.others button {
+    background-color: transparent;
+    border: 1px solid #b8b8ff;
+    width: 50%;
+    transition: ease-in-out 0.2s;
+}
+
+.others button:hover {
+    background-color: #b8b8ff;
+    transition: ease-in-out 0.2s;
+}
+
+.soft-skills {
+    font-size: smaller;
+    font-style: italic;
+}
+

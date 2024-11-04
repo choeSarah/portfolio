@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sarah Choe</title>
+    <link rel="icon" href="icons/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>   
+
+    <script src="https://kit.fontawesome.com/2f46ee0704.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+    </nav>
+    <div class="portfolio_content">
+        <section id="home">
+            <div class="text">
+                <h1>Hi, I'm Sarah Choe</h1>
+                <h3>developer & designer</h3>
+                <p id="">Scroll to see my work!</p>
+            </div>
+    
+            <div class="social-links">
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/sarah-choe-4974a723a/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://github.com/choeSarah" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                        <p>Github</p>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="mailto:u0977562@utah.edu" target="_blank">
+                        <i class="fas fa-envelope-square"></i>
+                        <p>Email</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="work">
+            <h2>Work</h2>
+
+            <label class="checkbox-content">
+                <input type="checkbox" id="workCheck" checked>
+                <div class="slider round">
+                 <span class="on">CODE</span>
+                 <span class="off">DESIGN</span>
+                </div>
+               </label>
+
+            <div class="code-portfolio">
+                <div class="code-item">
+                    <div class="img">
+                        <img src="photo/covers/cover_UFO.png">
+                    </div>
+                    <div class="text-box">
+                        <h4 class="title">UFO Data Visualization</h4>
+                        <h4 class="desc">
+                            A web-based interactive visualization that allows users to play with data related to UFO reports, as collected by United States' National UFO Reporting Center and Meteorite Fallings Data from NASA.
+                        </h4>
+                        <p class="soft-skills">#D3 #javascript #html5 #css #dataVisualization</p>
+                        <div class="btn-container">
+                            <button class="project-btn">Coming Soon!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-item">
+                    <div class="img">
+                        <img src="photo/covers/cover_hango.png">
+                    </div>
+                    <div class="text-box">
+                        <h4 class="title">HanGo</h4>
+                        <h4 class="desc">
+                            A C++ based educational app that helps users learn the Korean alphabet and basic vocabulary. Their knowledge can be tested in a typing game, built with the Box2d Physics Engine.
+                        </h4>
+                        <p class="soft-skills">#agileDevelopment #box2D #qtCreator</p>
+                        <div class="btn-container">
+                            <button class="github-btn"><a href="https://github.com/choeSarah/hanGo" target="_blank">Github</a></button>
+                            <button class="project-btn"><a href="project-pages/hango.html">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="code-item">
+                    <div class="img">
+                        <img src="photo/covers/cover_spreadsheet.png">
+                    </div>
+                    <div class="text-box">
+                        <h4 class="title">Spreadsheet Clone</h4>
+                        <h4 class="desc">
+                            A C#-based program that mimics Microsoft's Excel application, providing users with features for creating and manipulating spreadsheets.
+                            It also includes features like formula calculations and split input.
+                        </h4>
+                        <p class="soft-skills">#fileIO #modelViewController #maui</p>
+                        <div class="btn-container">
+                            <button class="github-btn"><a href="https://github.com/choeSarah/spreadsheet" target="_blank">Github</a></button>
+                            <button class="project-btn"><a href="project-pages/spreadsheet.html">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="design-portfolio">
+                <div class="design-item">
+                    <div class="img">
+                        <img src="photo/covers/cover_sonder.png">
+                    </div>
+                    <div class="text-box">
+                        <h4 class="title">UofU Graduation Tracker</h4>
+                        <h4 class="desc">
+                            Dashboard for Univeristy of Utah students to facilitate tracking of courses and credis required for graduation.
+                            Simplifies academic planning by providing real-time progress updates and personalized timelines for students
+                        </h4>
+                        <p class="soft-skills">#adobeIllustrator #visualCommunication #graphicDesign</p>
+                        <div class="btn-container">
+                            <button class="project-btn">Coming Soon</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item">
+                    <div class="img">
+                        <img src="photo/covers/cover_INTI.png">
+                    </div>
+                    <div class="text-box">
+                        <h4 class="title">INTI Coffee</h4>
+                        <h4 class="desc">
+                            Modernizing a coffee shop website to improve user experience and engagement.
+                        </h4>
+                        <p class="soft-skills">#figma #userResearch #wireframing</p>
+                        <div class="btn-container">
+                            <button class="project-btn"><a href="project-pages/inti.html">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="design-item">
+                    <div class="img">
+                        <img src="photo/covers/cover_SWE.png">
+                    </div>
+                    <div class="text-box">
+                        <h4 class="title">SWE @ University of Utah</h4>
+                        <h4 class="desc">
+                            Revamping the SWE program website for better userflow and accessibility of information.
+                             Focused on organizing and simplifying sponsorship, event, and contact details
+                        </h4>
+                        <p class="soft-skills">#prototyping #adobeXD #informationArchitecture</p>
+                        <div class="btn-container">
+                            <button class="project-btn"><a href="project-pages/swe.html">View Project</a></button>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- <div class="design-item">
+                    <div class="img">
+                        <img src="photo/covers/cover_sonder.png">
+                    </div>
+                    <h4 class="title">Sonder</h4>
+                    <h4 class="desc">Re-imagining an immersive experience for Barnes & Noble</h4>
+                    <p class="soft-skills">#adobeIllustrator #visualCommunication #graphicDesign</p>
+                    <div class="btn-container">
+                        <button class="project-btn"><a href="project-pages/sonder.html">View Project</a></button>
+                    </div>
+
+                </div> -->
+            </div>
+        </section>
+        <section id="skills">
+            <h2 style="margin-bottom: 80px;">Skills</h2>
+
+            <div class="skill-row">
+                <div id="one-skill" class="skill-category">
+                    <p class="skill-title">Programming Languages</p>
+                    <div class="skill-icons">
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+                            <p>HTML</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+                            <p>CSS</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+                            <p>Python</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
+                            <p>Java</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png">
+                            <p>C#</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+                            <p>C++</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="skill-category">
+                    <p class="skill-title">Frameworks</p>
+                    <div class="skill-icons">
+                        <div class="icon">
+                            <img src="https://styles.redditmedia.com/t5_2odyx7/styles/communityIcon_19sk0x18irz41.png">
+                            <p>.NET MAUI</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Processing_2021_logo.svg">
+                            <p>Processing</p>
+                        </div>
+
+                        <div class="icon">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/free-docker-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-language-pack-logos-icons-1175229.png">
+                            <p>Docker</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="one-skill" class="skill-category">
+                    <p class="skill-title">Development Tools</p>
+                    <div class="skill-icons">
+                        <div class="icon">
+                            <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg">
+                            <p>Github</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png">
+                            <p>Visual Studio</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://www.incredibuild.com/wp-content/uploads/2021/03/qT01-1.png">
+                            <p>Qt Creator</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png">
+                            <p>Jupyter Notebook</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="skill-row">
+                <div class="skill-category">
+                    <p class="skill-title">UX/UI Design</p>
+                    <div class="skill-icons">
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5440/5440062.png">
+                            <p>Adobe Photoshop</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5440/5440029.png">
+                            <p>Adobe Illustrator</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/adobe-adobe-xd-2522531-2132719.png?f=webp">
+                            <p>Adobe XD</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png">
+                            <p>Figma</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174881.png">
+                            <p>WordPress</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968753.png">
+                            <p>WIX</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://static-00.iconduck.com/assets.00/file-type-drawio-icon-2048x2048-dxjfklgq.png">
+                            <p>draw.io</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="skill-row">
+                <div class="skill-category">
+                    <p class="skill-title">Document and Presentation Tools</p>
+                    <div class="skill-icons">
+                        <div class="icon">
+                            <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Microsoft-Office-2013-icon.png">
+                            <p>Microsoft Office</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://cdn-icons-png.flaticon.com/256/2875/2875404.png">
+                            <p>Google Suite</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://seeklogo.com/images/K/keynote-logo-F0DD3F54A9-seeklogo.com.png">
+                            <p>Keynote</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png">
+                            <p>Notion</p>
+                        </div>
+                        <div class="icon">
+                            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/b1/a9/13b1a99d-cc5a-2262-5212-d4efcbe538f2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/256x256bb.jpg">
+                            <p>Miro</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-row">
+                <div class="img-container">
+                    <img src="photo/about/headshot.JPG" class="headshot">
+                </div>
+                <p>I'm Sarah Choe, a student at the University of Utah, where I'm diving into a Bachelor’s degree 
+                    in <b>Computer Science</b> along with a minor in <b>Design</b> and <b>Psychology</b>. I’m really passionate about 
+                    blending tech and design to create user experiences that are not only functional but also 
+                    bring people together in meaningful ways.<br>
+
+                    <br>When I'm not buried in code or design projects, you can usually find me at a café sketching 
+                    ideas or working on personal projects. Overall, I'm all about combining creativity and 
+                    technology to make life a little easier and more enjoyable for everyone.
+                </p>
+            </div>
+            <div class="about-row">
+                <div class="about-row-item">
+                    <h4>Work Experience</h4>
+                    <div class="work-item">
+                        <p id="position">Data Governance Student Intern</p>
+                        <p id="year">Nov. 2024 - Present</p>
+                        <p id="company">University of Utah USS-Data Management & Analytics</p>
+                    </div>
+                    
+                    <div class="work-item">
+                        <p id="position">Student Ambassador</p>
+                        <p id="year">Sept. 2024 - Present</p>
+                        <p id="company">Utah Center of Broadening Participation in Computing</p>
+                    </div>
+
+                    <div class="work-item">
+                        <p id="position">Webmaster</p>
+                        <p id="year">Aug. 2024 - Present</p>
+                        <p id="company">Society of Women Engineers at University of Utah</p>
+                    </div>
+
+                    <div class="work-item">
+                        <p id="position">Undergraduate Student Research Assistant</p>
+                        <p id="year">Jan. 2023 - Present</p>
+                        <p id="company">Kogan Lab in Kahlert School of Computing</p>
+                    </div>
+                </div>
+
+                <div class="about-row-item">
+                    <h4>Other Projects</h4>
+
+                    <div class="other-item">
+                        <h5>FireNest</h5>
+                        <p>Presentation for the 2024 Wilkes Climate Change Hackathon and Summit</p>
+                        <button><a href="project-pages/firenest.html">Learn More</a></button>
+                    </div>
+
+                    <div class="other-item">
+                        <h5>GreenLatinos</h5>
+                        <p>Community engagement project to honor Latin American environmentalists</p>
+                        <button><a href="project-pages/greenlatinos.html">Learn More</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <h2>Let's get in touch!</h2>
+        <div class="social-links" style="display:flex; flex-direction: row;">
+            <div class="social-item">
+                <a href="https://www.linkedin.com/in/sarah-choe-4974a723a/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="social-item">
+                <a href="https://github.com/choeSarah" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </div>
+            <div class="social-item">
+                <a href="mailto:u0977562@utah.edu" target="_blank">
+                    <i class="fas fa-envelope-square"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
