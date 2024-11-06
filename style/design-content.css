@@ -207,3 +207,10 @@
     width: 110%;
     height: auto;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .design-section .grid-container {
+        display:block;
+        text-align: center;
+    }
+}

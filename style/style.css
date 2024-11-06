@@ -418,7 +418,8 @@ footer .social-links i:hover{
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {    body section {
+@media only screen and (min-width: 320px) and (max-width: 480px) {    
+    body section {
         padding: 100px 30px 40px;
     }
 
@@ -463,13 +464,18 @@ footer .social-links i:hover{
 
     .code-portfolio, .design-portfolio {
         padding-top: 40px;
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     .code-item, .design-item {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
         margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .btn-container {
+        align-items: center;
     }
 
     .skill-row {
@@ -484,12 +490,25 @@ footer .social-links i:hover{
 
     .about-row {
         margin-top: 40px;
-        display: grid;
-        row-gap: 20px;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
         text-align: center;
+    }
+
+    .about-row-item {
+        background: rgba(193, 188, 205, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        margin: 20px 0px;
+        padding: 20px 0px;
+        border-radius: 20px;
+
     }
 
     .img-container {
